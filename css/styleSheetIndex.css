@@ -1,0 +1,290 @@
+* {
+    padding : 0;
+    margin : 0;
+}
+
+*:focus {
+	outline: none;
+}
+
+body {
+    background : white;
+    color : black;
+}
+
+#textBox {
+		position: fixed;
+		border: 2px solid black;
+		border-radius: 40px;
+		background-color: white;
+		width: 90%;
+		height: 95%;
+		left: 5%;
+		top: 5%;
+	}
+	
+#textTitle {
+	position: inherit;
+	border-bottom: 2px solid black;
+	width: inherit;
+	height:120px;
+  display: inline-table;
+}
+
+#ppMine {
+	position: absolute;
+	width: 11%;
+	height: 80%;
+	left: 1.7%;
+	top: 10%;
+	background-color: blue;
+	border-radius: 100%;
+}
+
+div#pTitle {
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 3em;
+	left: 15%;
+}
+
+#settingButt {
+	position: absolute;
+	width: 39%;
+	height: 87%;
+	left: 80%;
+	top: 12%;
+}
+
+#settButt {
+	width: inherit;
+	height: inherit;
+}
+
+.dropdown {
+	position: absolute;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: white;
+	border-radius: 20px;
+	min-width: 210px;
+	box-shadow: 2px 2px 9px 1px;
+}
+
+.dropdown-content div{
+	color: black;
+	padding: 25px 15px;
+	text-decoration: none;
+	font-size: 2.2em;
+	display: block;
+}
+
+.dropdown-content div:hover {
+	background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropdownbutton {
+	color: blue;
+	font-weight: bold;
+	border: 2px solid blue;
+}
+
+.dropdownbutton {
+	background-color: white;
+	color: black;
+	padding: 15px;
+	font-size: 2em;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+#messageArea {
+	position: relative;
+	width: inherit;
+	height: 
+}
+
+#textInput {
+	position: absolute;
+	width:100%;
+	height: 180px;
+	/*border: 2px solid black;*/
+	border-top: 2px solid black;
+	bottom: 20px;
+	left: -2px;
+	
+}
+
+
+#input01 {
+	position: absolute;
+	width: 73%;
+	height: 40%;
+	top: 58%;
+	left: 5%;
+	border: 0px solid black;
+	border-left-right: 2px solid black;
+	font-size: 2.8em;
+	font-weight: 400;
+	font-style: normal;
+}
+
+#send {
+	position: absolute;
+	width: 17%;
+	height: 47%;
+	top: 55%;
+	left: 80%;
+	font-size: 2.8em;
+	border: 1px solid black;
+	border-radius: 20px;
+	display: inline-table;
+	text-align: center;
+}
+
+#send span {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+.opInBar {
+	position: absolute;
+	width: 17%;
+	height: 40%;
+	top: 8%;
+	border: 0px solid black;
+	border-radius: 10px;
+	display: inline-table;
+	/*background-color: blue;*/
+}
+
+.pInBar {
+	font-size: 2.5em;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#firstOp {
+	left: 6.4%;
+}
+
+#secondOp {
+	left: 29.8%;
+}
+
+#thirdOp {
+	left: 53.2%;
+}
+
+#fourthOp {
+	left: 76.6%;
+	font-family: cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#cardAll {
+	display: none;
+}
+
+#titleh1 {
+		position: absolute;
+		font-size: 4em;
+		top: 17px;
+		left: 33%;
+	}
+	
+	.card {
+		position: fixed;
+		width: 92%;
+		height: 1150px;
+		top: 100px;
+		left: 4%;
+		border: 1px solid black;
+	}
+	
+	#ppCon01 {
+		position: relative;
+		width: 40%;
+		height: 30%;
+		left: 30%;
+		top: 20px;
+		background-color: blue;
+		border-radius: 100%;
+	}
+	
+	#form01 {
+		position: relative;
+		top: 7%;
+		font-size: 3.5em;
+	}
+	
+
+#nameCon01 {
+	position: relative;
+	width: 50%;
+	height: 5%;
+	font-size: 1.5em;
+	border: none;
+	text-align: center;
+	left: 6%;
+}
+
+#labelName {
+	position: relative;
+	left: 7%;
+}
+
+#validName01 {
+	position: absolute;
+	width: 20%;
+	height: 100%;
+	font-size: 1.4em;
+	left: 76%;
+	top: 1%;
+	font-style: italic;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 20px;
+	display: inline-table;
+}
+
+#validName01 span {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+
+	
+	
+	
